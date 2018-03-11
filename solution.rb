@@ -2,7 +2,7 @@ require 'sinatra'
 
 get "/" do
 	@contador = 0
-  erb :index
+  erb :post
 end
 
 post "/aumento" do
